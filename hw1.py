@@ -62,6 +62,8 @@ def main_menu():
                         '4 - для изменения данных,\n'
                         '5 - для удаления контакта,\n'
                         '6 - для выхода из справочника:\n'))
+        while (numb<1) or (numb>6) : 
+            numb= int(input('Введите значение от 1 до 6: ')) 
         if numb == 1:
             all_contacts()
         elif numb == 2:
