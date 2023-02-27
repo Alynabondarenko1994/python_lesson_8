@@ -73,7 +73,6 @@ def main_menu():
         elif numb == 5:
             delete_contact(input('Введите фамилию/имя/отчество/номер телефона для удаления данного контакта:'))    
         elif numb == 6:
-            open(phone_book, encoding='utf8').close()
             break
 
 
